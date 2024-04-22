@@ -4,14 +4,14 @@ export default function Form() {
     return (
         <div className='h-[170px] px-6 border flex flex-col justify-center gap-[15px]'>
 
-            <div className='flex justify-between'>
-                <div className='flex flex-col'>
+            <div className='flex justify-center gap-3'>
+                <div className='flex flex-col flex-grow'>
                     <label htmlFor="top-text">Top Text</label>
                     <input className='border border-[#D1D5DB] rounded-[5px] h-[34.74px] pl-[10px]' type="text" name="top-text" placeholder='Enter Top Text' id="" />
                 </div>
 
 
-                <div className='flex flex-col'>
+                <div className='flex flex-col flex-grow'>
                     <label htmlFor="top-text">Top Text</label>
                     <input className='border border-[#D1D5DB] rounded-[5px] h-[34.74px] pl-[10px]' type="text" name="top-text" placeholder='Enter Buttom Text' id="" />
                 </div>
