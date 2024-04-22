@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Header() {
+  
   return (
     <header className='flex justify-between items-center px-6 w-[auto] h-[65px] bg-gradient-to-r from-[#672280] to-[#A626D3]' >
       <div className='flex justify-center items-center gap-[7px]'>
