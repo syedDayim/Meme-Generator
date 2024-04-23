@@ -28,12 +28,34 @@ function App() {
 
   }
 
+
+  
+  function handleChange(event){
+    const { name, value } = event.target
+    setMemes((prevMeme) => {
+        return {
+            ...prevMeme,
+            [name] : value
+        }
+    })
+    
+}
+
+
+
   return (
 
 
     <>
       <Header />
-      <Form generateImage={generateImage} memes={memes}/>
+
+      <Form 
+      generateImage={generateImage} 
+      memes={memes} 
+      setMemes={setMemes} 
+      handleChange={handleChange}
+      />
+
     </>
   )
 }
