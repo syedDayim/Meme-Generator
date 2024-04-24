@@ -5,7 +5,7 @@
 <p id="description">This Project demonstrates the fundamentals of react and the use of Hooks. This projects generate a random meme image from a meme image API then write a top and a bottom text over the image which is provided by the user</p>
 
 <h2>Live Preview</h2>
-<a href="https://meme-generator-ten-tau.vercel.app/">Live Preview</a>
+<a href="https://meme-generator-ten-tau.vercel.app/">Click Here</a>
 
 
 <h2>Project Screenshots:</h2>
